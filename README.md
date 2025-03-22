@@ -75,6 +75,6 @@ int main() {
     
     return 0;
 }
-
+'''
 ## Результат выполнения программы:
 ![image](https://github.com/user-attachments/assets/8a4cc59b-b4bd-478d-9180-d6a56399a51e)
