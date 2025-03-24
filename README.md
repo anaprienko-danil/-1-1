@@ -16,7 +16,6 @@
 using namespace std;
 using namespace chrono;
 
-// Расширенный алгоритм Евклида
 long long gcd_extended(long long a, long long b, long long &x, long long &y) {
     if (a == 0) {
         x = 0, y = 1;
@@ -46,7 +45,7 @@ int main() {
     long long a, b, c;
     cin >> a >> b >> c;
     
-    auto start_time = high_resolution_clock::now(); // Засекаем время после ввода
+    auto start_time = high_resolution_clock::now(); 
 
     long long x, y;
     long long g = gcd_extended(a, b, x, y);
